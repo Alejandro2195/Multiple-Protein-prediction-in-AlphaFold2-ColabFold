@@ -4,11 +4,13 @@ This loop must be inserted before the execution of the AlphaFold2 Colab predicti
 
 The list with sequences must have the following structure:
 
+```{python}
 >>XP_001388503.1
 MEYPSKQYPVPAGVHIIPEHLLDLRPDSEVDYDLLHPRPVTDEKNIWLFWHSGYSTMHPYTKRNVRAWHRRFSKAGWIVR
 
 >>XP_001388543.2
 MAAMMTPGSPVRLGPGPRRRSSNLVILLLVIIALLWSLVIHQNIGRGLHVTLDDIRDPLDAIVNNTLGFEKIFAISPAQR
+```
 
 ```{python}
 from google.colab import files
